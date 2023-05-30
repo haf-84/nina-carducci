@@ -243,7 +243,18 @@ input[type="submit"] {
 	background-color: #BEB45A;
 	padding: .5em 1em
 }
+.picture .right img{
+	max-width: 354px;
+	max-height: 354px;
+}
+.picture .left img{
+	max-width: 362px;
+	max-height: 362px;
+}
 
+.about-me__introduction{
+	font-size: 1rem;
+}
 @media all and (max-width: 1180px) {
 	.picture {
 		flex : 2;
