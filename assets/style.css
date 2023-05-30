@@ -68,7 +68,9 @@ body {
 }
 
 .picture img {
-	width: 100%;
+	width: 375px;
+	height: auto;
+	max-width: 100%;
 
 }
 #about-me {
@@ -246,10 +248,6 @@ input[type="submit"] {
 .picture .right img{
 	max-width: 354px;
 	max-height: 354px;
-}
-.picture .left img{
-	max-width: 362px;
-	max-height: 362px;
 }
 
 .about-me__introduction{
