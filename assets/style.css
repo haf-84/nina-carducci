@@ -253,6 +253,9 @@ input[type="submit"] {
 .about-me__introduction{
 	font-size: 1rem;
 }
+.nav-link, .nav-item .active{
+	color:#000;
+}
 @media all and (max-width: 1180px) {
 	.picture {
 		flex : 2;
